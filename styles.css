@@ -165,13 +165,13 @@ main blockquote {
   box-sizing: border-box;
 }
 #New-Joke{
-  color: blue;
+  color: #0c98ff;
 }
 #New-Joke:focus{
   color: black;
 }
 input:focus{
-  background-color:  #0c98ff;
+  background-color: #0c98ff;
   color: black;
   outline: 0px;
 }
