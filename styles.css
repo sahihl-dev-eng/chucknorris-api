@@ -11,10 +11,12 @@ h1 {
   font-weight: 900; }
 
 input {
-  background-color:grey;
-  color: white;
+  background-color:white;
+  color: black;
   margin: 0.3em;
-  border: none;
+  border: 100px;
+  border-radius: 1px;
+  border-color: grey;
   padding: 1em;
   border-radius: 3px; }
 
@@ -50,7 +52,7 @@ main blockquote {
   padding: 1.5em 3em 1.4em 3em;
   text-align: center;
   font-size: 2em;
-  background-color:blue;
+  background-color:#0C98FF;
    }
 
 /* main blockquote::before {
