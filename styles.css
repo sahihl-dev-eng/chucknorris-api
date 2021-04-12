@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  text-align: center;
+  width: 100vw; }
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 5em;
+  font-weight: 900; }
+
+input {
+  background-color:grey;
+  color: white;
+  margin: 0.3em;
+  border: none;
+  padding: 1em;
+  border-radius: 3px; }
+
+/* input:hover {
+  background-color: #9e2250; } */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em; }
+
+#categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 80vw;
+  margin: auto;
+  flex-flow: wrap; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5em; }
+
+main blockquote {
+  position: relative;
+  max-width: 80%;
+  padding: 1.5em 3em 1.4em 3em;
+  text-align: center;
+  font-size: 2em;
+  background-color:blue;
+  border-left: #e03939 8px solid; }
+
+main blockquote::before {
+  content: "\201C";
+  font-family: arial;
+  position: absolute;
+  top: -4px;
+  left: 32px;
+  font-size: 5em;
+  color: #e03939; }
+
+#result {
+  max-width: 100%; }
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 4em; }
+  header {
+    margin-bottom: 1em; }
+  main {
+    margin: 1em; }
+  main blockquote {
+    max-width: 80%;
+    padding: .75em 1.5em .7em 1.5em;
+    font-size: 1em;
+    border-left: #e03939 4px solid; }
+  main blockquote::before {
+    content: "\201C";
+    font-family: arial;
+    position: absolute;
+    top: -2px;
+    left: 16px;
+    font-size: 2.5em;
+    color: #e03939; }
+
+@media screen and (max-width: 475px) {
+  h1 {
+    font-size: 2em; }
+  header {
+    margin-bottom: 1em; }
+  main {
+    margin: 1em; }
+  main blockquote {
+    max-width: 80%;
+    padding: .75em 1.5em .7em 1.5em;
+    font-size: 1em;
+    border-left: #e03939 4px solid; }
+  main blockquote::before {
+    content: "\201C";
+    font-family: arial;
+    position: absolute;
+    top: -2px;
+    left: 16px;
+    font-size: 2.5em;
+    color: #e03939; }
